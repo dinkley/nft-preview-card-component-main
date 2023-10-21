@@ -1,0 +1,89 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap');
+
+* {
+    font-family: 'Outfit', sans-serif;
+}
+
+html, body {
+    height: 100%;
+    background-color: hsl(217, 54%, 11%);
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-container {
+    height: 100%;
+    display: flex;
+    flex-direction: row;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+}
+
+.nft-container {
+    background-color: hsl(216, 50%, 16%);
+    padding: 18px;
+    border-radius: 4%;
+}
+
+.nft-container img {
+    width: 280px;
+    height: auto;
+    border-radius: 4%;
+}
+
+.nft-container p {
+    max-width: 280px;
+    color: hsl(215, 51%, 70%);
+    font-size: 15px;
+}
+
+.nft-container .etherium-icon {
+    height: 18px;
+    width: 11px;
+}
+
+.pricing {
+    flex-direction: row !important; 
+}
+
+.pricing p {
+    margin: 0;
+    margin-left: 10px;
+}
+
+.nft-container .clock-icon {
+    width: 20px;
+    height: auto;
+}
+
+h3 {
+    color: white;
+}
+
+hr.solid {
+    border-top: 1px soild white;
+}
+
+img.author-avatar {
+    width: 25px;
+    height: 25px;
+    border: 1px solid white;
+    border-radius: 50%;
+}
+
+#price {
+    color: #00FFF8;
+}
+
+.author {
+    align-items: center;
+}
+
+.author-credits {
+    padding-left: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
